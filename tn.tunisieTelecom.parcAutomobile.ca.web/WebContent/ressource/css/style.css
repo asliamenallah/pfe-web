@@ -1,0 +1,55 @@
+
+body {
+	background-color: #fff;
+	font-family: 'OpenSans';
+	margin: 0;
+}
+img {
+	border: 0;
+}
+
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background-color: #eee;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 27px 0;
+}
+#header > div, #footer > div {
+	width: 920px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+/** Logo **/
+#header .logo {
+	float: left;
+	margin-right: 20px;
+}
+#header .logo  {
+	background: url(../images/LOGO-TT1.jpg) no-repeat center top;
+	color: #000;
+	display: block;
+	font: 15px/30px 'Play';
+	margin-right:1000px;
+	height: 0px;
+	width: 285px;
+	padding-top: 90px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#loginform{margin-top:150px; margin-left:250px; margin-right:250px; text-align:right cellspacing:8; columns:3;
+box-shadow:10px 10px 10px #888;
+}
+
+
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	background-color: #eee;
+	border-top: 1px solid #d8d8d8;
+	padding: 30px 0;
+	margin-top:180px;
+}
+#footer p {
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 10px;
+}
